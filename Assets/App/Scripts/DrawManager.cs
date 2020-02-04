@@ -25,6 +25,7 @@ public class DrawManager : MonoBehaviour
         {
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             activeLine.UpdateLine(mousePosition);
-        }       
+        }
+
     }
 }
